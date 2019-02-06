@@ -1,5 +1,5 @@
 # dinosaurs
-###A page about dinosaurs and learning
+### A page about dinosaurs and learning
 
 The idea behind our project is to provide a selection of dinosaurs to learn about. 
 
