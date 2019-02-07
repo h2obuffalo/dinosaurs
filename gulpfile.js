@@ -60,4 +60,5 @@ gulp.task("browserSync", () => {
     gulp.watch("./scss/*.scss", gulp.series("styles"))
     gulp.watch("./js/*.js", gulp.series("minify-js"))
     // gulp.watch(["./js/*.js", "./scss/*.scss"], gulp.series("styles", "minify-js"));    
+
 });
