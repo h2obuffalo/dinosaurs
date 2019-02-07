@@ -32,7 +32,7 @@ gulp.task("watch-css", () => {
 
 
 gulp.task("minify-js", () => {
-    return gulp.src("./js/*.js")
+    return gulp.src(["./js/jquery-*.js", "./js/popper.js", "./js/bootstrap.js", "./js/*.js"])
                .pipe(concat("all.js"))
                .pipe(uglify())
                .pipe(rename({suffix: ".min"}))
