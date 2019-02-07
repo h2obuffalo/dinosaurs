@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Bootstrap CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Sigmar+One" rel="stylesheet">
 		<link rel="stylesheet" href="../dist/css/styles.min.css">
 	</head>
 	<body>
@@ -16,21 +17,47 @@
 
 				<div class="cover-container">
 
-					<header class="masthead clearfix">
-						<div class="inner">
-							<h3 class="masthead-brand">Cover</h3>
-							<nav class="nav nav-masthead">
-								<a class="nav-link active" href="#">Home</a>
-								<a class="nav-link" href="#">Features</a>
-								<a class="nav-link" href="#">Contact</a>
-							</nav>
-						</div>
-					</header>
+					<nav class=" masthead navbar navbar-expand-md navbar-dark">
+					    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+					        <ul class="navbar-nav mr-auto">
+					            <li class="nav-item active">
+					              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+					            </li>
+					            <li class="nav-item active dropdown">
+					              <a class="nav-link dropdown-toggle" href="../index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					                Dinosaurs
+					              </a>
+					              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					                <a class="dropdown-item" href="stegosaurus.html">Stegosaurus</a>
+					                <a class="dropdown-item" href="brontosaurus.html">Brontosaurus</a>
+					                <a class="dropdown-item" href="parasaurolophus.html">Parasaurolophus</a>
+					                <a class="dropdown-item" href="triceratops.html">Triceratops</a>
+					                <a class="dropdown-item" href="tyrannosaurus.html">Tyrannosaurus</a>
+					                <a class="dropdown-item" href="velociraptor.html">Velociraptor</a>
+					              </div>
+					            </li>
+					        </ul>
+					    </div>
+					    <div class="mx-auto order-0">
+					        <a class="navbar-brand mx-auto" href="index.html"><img class="navbar-icon" src="../dist/images/logo_icon.png"></a>
+					        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+					            <span class="navbar-toggler-icon"></span>
+					        </button>
+					    </div>
+					    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+					        <ul class="navbar-nav ml-auto">
+					            <li class="nav-item active">
+					                <a class="nav-link" href="../about.html">About</a>
+					            </li>
+
+					        </ul>
+					    </div>
+					</nav>
 
 				</div>
 
 	<h2>Parasaurolophus</h2>
-	<img src="../dist/images/dinosaurs-to-scale_10-parasaurolophus.svg">
+	<img class="dino-image" src="../dist/images/dinosaurs-to-scale_10-parasaurolophus.svg">
 	<p>Parasaurolophus is a dinosaur from the Upper ............ of what is now North America, about 76.5–73 million years ago. It was a herbivore that walked on both two and four feet. It probably lived in .............
 	Parasaurolophus was a ............. They had a large head ............, which was a long curved tube. It went upwards and back from the skull. The crest has been much discussed by scientists. They think that the Parasaurolophus might have used it to .............
 

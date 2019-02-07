@@ -34,7 +34,7 @@ body {
   background-position: center;
 }
 body {
-  color: red;
+  color: white;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
@@ -205,5 +205,19 @@ border-radius: 30%;
   margin-top: 4rem;
 }
 
+
+h2 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 4em;
+  letter-spacing: 0.05em;
+  color: #735C26;
+}
+
+body p {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 1.8rem !important;
+  color: #FFF;
+  text-shadow: 1px 1px 2px black;
+}
 
 
