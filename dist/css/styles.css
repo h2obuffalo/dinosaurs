@@ -6045,6 +6045,57 @@ body p {
   color: #FFF;
   text-shadow: 1px 1px 2px black; }
 
+/*profile page updates*/
+.profiles-dinoname {
+  grid-row-start: 2;
+  font-size: 8em;
+  padding-top: 6vw; }
+
+.profiles-dinowords {
+  background-color: #888c8d;
+  grid-row-start: 2;
+  grid-column-end: 3;
+  border-style: ridge;
+  border-color: #775745;
+  border-width: 20px;
+  justify-self: center;
+  margin-bottom: 4vw;
+  margin-top: 4vw;
+  text-align: left;
+  padding: 1vw;
+  opacity: 0.8;
+  font-weight: bolder;
+  font-size: 100%; }
+
+.profiles-dinotext {
+  background-color: #888c8d;
+  color: blue;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-end: 3;
+  border-style: ridge;
+  border-color: #775745;
+  border-width: 20px;
+  justify-self: center;
+  margin-bottom: 4vw;
+  margin-top: 4vw;
+  padding: 1vw;
+  opacity: 0.8;
+  font-weight: bolder;
+  font-size: 150%; }
+
+.site-wrapper-inner {
+  display: grid;
+  grid-template-rows: 1fr 4fr 4fr 1fr;
+  grid-template-columns: 1fr 1fr; }
+
+.dino-image {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 3 / span 4;
+  margin-left: 10vw;
+  padding-bottom: 1vw; }
+
 .dino-image {
   /*height: 30vh;*/
-  width: 50%; }
+  width: 80%; }
