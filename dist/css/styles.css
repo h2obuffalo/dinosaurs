@@ -6050,5 +6050,23 @@ body p {
   text-shadow: 1px 1px 2px black; }
 
 .dino-image {
-  /*height: 30vh;*/
+  margin: 0 auto;
   width: 50%; }
+
+.silhouette-100 {
+  fill: black; }
+
+.silhouette-80 {
+  fill: rgba(0, 0, 0, 0.8); }
+
+.silhouette-60 {
+  fill: rgba(0, 0, 0, 0.6); }
+
+.silhouette-40 {
+  fill: rgba(0, 0, 0, 0.4); }
+
+.silhouette-20 {
+  fill: rgba(0, 0, 0, 0.2); }
+
+.silhouette-00 {
+  fill: rgba(0, 0, 0, 0); }
