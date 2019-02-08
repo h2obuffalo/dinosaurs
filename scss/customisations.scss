@@ -164,7 +164,9 @@ body {
   }
 }
 
-
+nav {
+  z-index: 10;
+}
 
 .navbar-icon {
   width: 1em;
@@ -195,6 +197,7 @@ border-radius: 30%;
   position:relative;
   padding-top: 30px;
   margin-top: 30px;
+  z-index: 0;
 }
 
 .homepage-intro-para {
