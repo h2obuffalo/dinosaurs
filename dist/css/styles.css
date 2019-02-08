@@ -6088,7 +6088,7 @@ body p {
   font-weight: bolder;
   font-size: 150%; }
 
-.site-wrapper-inner {
+.profiles_grid {
   display: grid;
   grid-template-rows: 1fr 4fr 4fr 1fr;
   grid-template-columns: 1fr 1fr; }
